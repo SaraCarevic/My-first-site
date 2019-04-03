@@ -1,0 +1,141 @@
+/*=========================================================LAYOUT========================================================*/
+body {
+	margin: 0;
+}
+#container {
+	width: 968px;
+	margin: auto;             
+}
+#nav {
+	background: black;
+	height: 30px;
+	width: 964px;
+	border: solid 2px #000;
+	font-weight: bold;
+	text-align: center;
+	color: white;
+}
+h1 {
+	text-align: center;
+	color: black;
+}
+h2 {
+	text-align: center;
+	color: white;
+}
+/*=======================================================================================================================*/
+#navbar {
+	background-color: white;
+	width: 964px;
+	height: 35px;
+	border: solid 2px #000;
+	font-weight: bold;
+	color: white;
+}
+#navbar ul {
+    padding: 5px;
+	list-style: none;
+	text-align: center;
+	border-radius: 5px;
+	background-color: white;
+}
+#navbar ul li {
+	display: inline;
+}
+#navbar ul li a {
+	text-decoration: none;
+	font-family: Arial;
+	padding: .2em 1em;
+	color: #000;
+}
+#navbar ul li a:hover {
+	color: #000;
+}
+/*========================================================================================================================*/
+.main {
+	background-color: ;
+    margin-top: 20px;
+	border-radius: 15px;
+	padding: 20px;
+	font-size: 110%; 
+	color: black;
+}	
+
+
+/*========================================================================================================================*/
+#footer {
+	background-color: white;
+	width: 964px;
+	height: 40px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	border: solid 2px #000;
+	font-weight: bold;
+	font-size: 15px;
+	color: white;
+	clear: both;
+}
+#footer ul {
+	padding: 5px;
+	list-style: none;
+	text-align: center;
+}
+#footer ul il {
+	display: inline;
+}
+#footer ul li a {
+	text-decoration: none;
+	font-family: Arial;
+	padding: .2em 1em;
+	color: #000;
+}
+#footer ul li a:hover {
+	color: #000;
+}
+/*========================================================================================================================*/
+
+#sara {
+	margin: auto;   
+	background: silver;
+	height: 300px;
+	width: 964px;
+	border: solid 2px #000;
+	font-weight: bold;
+	text-align: center;
+	color: black;
+}
+
+#saravideos {
+	margin: auto;   
+	background: black;
+	height: 460px;
+	width: 964px;
+	border: solid 2px #000;
+	font-weight: bold;
+	text-align: center;
+	color: white;
+}
+/*========================================================================================================================*/
+#theForm {
+	color: white;
+	display: table;
+	padding: 15px;
+	background-color: black;
+	border: solid 2px black;	
+}
+
+.row {
+	display: table-row;
+}
+
+.row label {
+	display: table-cell;
+	padding: 2px;
+	text-align: right;
+}
+
+.row input {
+	display: table-cell;
+	padding: 2px;
+}
+/*========================================================================================================================*/
